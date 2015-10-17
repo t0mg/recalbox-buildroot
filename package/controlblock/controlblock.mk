@@ -20,8 +20,7 @@ define CONTROLBLOCK_BUILD_CMDS
 endef
 
 define CONTROLBLOCK_INSTALL_TARGET_CMDS
-	$(TARGET_MAKE_ENV) $(MAKE) installservice -C $(@D)
-	#$(MAKE) -C $(@D) install INSTALL_ROOT=$(TARGET_DIR)
+	$(MAKE) -C $(@D) install INSTALL_ROOT=$(TARGET_DIR)
   	#$(MAKE) -C $(@D) DESTDIR=$(TARGET_DIR) install
 endef
 
