@@ -1,1 +1,7 @@
+config BR2_PACKAGE_CONTROLBLOCK
+	bool "controlblock"
+	help
+		Controlblock driver
+
+		https://github.com/petrockblog/ControlBlockService
 

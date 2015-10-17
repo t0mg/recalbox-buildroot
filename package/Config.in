@@ -195,6 +195,7 @@ menu "Controllers"
 	source "package/gamecon_gpio_rpi/Config.in"
 	source "package/xboxdrv/Config.in"
 	source "package/recalbox-retrogame/Config.in"
+	source "package/controlblock/Config.in"
 endmenu
 menu "Emulators"
 	source "package/mupen64plus-core/Config.in"
